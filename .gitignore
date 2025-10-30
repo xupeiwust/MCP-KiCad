@@ -25,3 +25,33 @@ ENV/
 
 # Logs
 *.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Claude Code / AI Assistant
+.claude/
+
+# Work files and drafts (not for public repo)
+*_STATUS.md
+*_DISCUSSION*.md
+*_FEEDBACK.md
+*_REASONING.md
+SESSION_SUMMARY.md
+MVP_STATUS.md
+DEMO.md
+ARCHITECTURE_IMPROVED.md
+demo_*.py
+action_executor.py
+actions.py
+api_adapter.py
+context_manager*.py
+test_api_adapter.py
+tests/
+
+# OS
+.DS_Store
+Thumbs.db

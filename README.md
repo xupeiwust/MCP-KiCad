@@ -1,5 +1,12 @@
 # KiCad MCP Integration
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![KiCad 9.0+](https://img.shields.io/badge/KiCad-9.0+-blue.svg)](https://www.kicad.org/)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/Pablomonte/MCP-KiCad/releases/tag/v1.0.0)
+[![Tests](https://img.shields.io/badge/tests-20%2F20%20passing-brightgreen.svg)](#testing)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 AI-assisted KiCad PCB design using Model Context Protocol (MCP) and Anthropic Claude.
 
 ## Overview
