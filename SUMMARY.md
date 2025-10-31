@@ -17,7 +17,7 @@ Successfully implemented AI-assisted KiCad PCB design with complete fabrication 
 - **Fabrication tools**: Gerber export, drill files, BOM, position files, complete fabrication packages
 - **Verification tools**: Design Rule Check (DRC)
 - **Layout tools**: Zone filling, track information
-- **10 total tools** (4 basic + 6 advanced)
+- **12 total tools** (4 basic + 8 advanced)
 
 ### 3. Client Implementation (`kicad_mcp_client.py`)
 - Interactive AI assistant using Claude 3.5 Sonnet
@@ -26,9 +26,9 @@ Successfully implemented AI-assisted KiCad PCB design with complete fabrication 
 - Error handling and recovery
 
 ### 4. Flatpak Integration
-- **`run_with_flatpak.sh`**: Wrapper to run server inside Flatpak container
+- **`run_with_flatpak.sh`** (73 lines): Wrapper to run server inside Flatpak container with auto-detection
 - **`kicad_flatpak_setup.sh`**: One-command dependency installation
-- **Updated `check_kicad.py`**: Auto-detects Flatpak KiCad installation
+- **Updated `check_kicad.py`**: Auto-detects Flatpak KiCad 9.0.5 installation
 
 ### 5. Testing & Documentation
 - **`test_server.py`**: Basic server tests
